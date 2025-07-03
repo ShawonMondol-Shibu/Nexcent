@@ -3,8 +3,10 @@ import Slider from './Slider'
 
 export default function Header() {
   return (
-    <header>
+    <header className=' w-full h-screen bg-zinc-100 p-5 m-auto pt-20'>
+      <div className='container m-auto'>
         <Slider/>
+      </div>
     </header>
   )
 }
