@@ -13,13 +13,13 @@ export default function Community() {
   ]
   return (
     <main className="mt-20">
-      <div className="space-y-2 text-center mb-10">
+      <div className="space-y-2 text-center mb-6">
 
       <h1 className="text-3xl font-bold">Manage your entire community <br /> in a single system</h1>
       <p>Who is Nextcent suitable for?</p>
       </div>
       
-      <div className="flex items-center justify-evenly gap-6">
+      <div className="flex flex-wrap items-center justify-evenly gap-6">
         {
           communitys.map((community:communityType, i:number)=><div key={i} className="w-72 text-center justify-center space-y-2">
           <community.icon size={50}  className="m-auto"/>

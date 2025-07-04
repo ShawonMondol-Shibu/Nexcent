@@ -23,8 +23,8 @@ export default function Clients() {
           <Image
             key={i}
             src={icon}
-            width={28}
-            height={28}
+            width={38}
+            height={38}
             alt="company icons "
           />
         ))}
