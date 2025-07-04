@@ -18,7 +18,7 @@ export default function Navbar() {
     {name:"FAQ",url:"#"},
   ]
   return (
-    <nav className='flex items-center justify-between p-5 sticky top-0 left-0 bg-zinc-100'>
+    <nav className='flex items-center justify-between p-5 sticky top-0 left-0 bg-zinc-100 z-10'>
             <Image src={'/images/logo.png'} width={100} height={100} alt='nexcents logo image in for this site'/>
       
           <ul className='flex gap-10 items-center'>
