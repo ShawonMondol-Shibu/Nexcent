@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Clients() {
   const companys: string[] = [
-    "/icons/logo.png",
-    "/icons/logo1.png",
-    "/icons/logo2.png",
-    "/icons/logo3.png",
-    "/icons/logo4.png",
-    "/icons/logo5.png",
-    "/icons/logo6.png",
+    "/icons/Logo.png",
+    "/icons/Logo1.png",
+    "/icons/Logo2.png",
+    "/icons/Logo3.png",
+    "/icons/Logo4.png",
+    "/icons/Logo5.png",
+    "/icons/Logo6.png",
   ];
   return (
     <main className="container m-auto mt-10 text-center space-y-10">
