@@ -5,11 +5,11 @@ import Unlock from "@/components/layout/Unlock";
 
 export default function Home() {
   return (
-   <div className="">
-<Header/>
-<Clients/>
-<Community/>
-<Unlock/>
-   </div>
+    <div className="">
+      <Header />
+      <Clients />
+      <Community />
+      <Unlock />
+    </div>
   );
 }
