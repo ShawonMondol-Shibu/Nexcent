@@ -4,12 +4,12 @@ import React from "react";
 export default function Clients() {
   const companys: string[] = [
     "/icons/logo.png",
-    "/icons/logo(1).png",
-    "/icons/logo(2).png",
-    "/icons/logo(3).png",
-    "/icons/logo(4).png",
-    "/icons/logo(5).png",
-    "/icons/logo(6).png",
+    "/icons/logo1.png",
+    "/icons/logo2.png",
+    "/icons/logo3.png",
+    "/icons/logo4.png",
+    "/icons/logo5.png",
+    "/icons/logo6.png",
   ];
   return (
     <main className="container m-auto mt-10 text-center space-y-10">
