@@ -4,6 +4,7 @@ import Community from "@/components/layout/Community";
 import CommunityUpdates from "@/components/layout/CommunityUpdates";
 import Customers from "@/components/layout/Customers";
 import DesignSite from "@/components/layout/DesignSite";
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Unlock from "@/components/layout/Unlock";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <DesignSite/>
       <Customers/>
       <CommunityUpdates/>
+      <Footer/>
     </div>
   );
 }

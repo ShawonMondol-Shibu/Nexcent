@@ -35,14 +35,14 @@ export default function CommunityUpdates() {
           more.​
         </p>
       </div>
-      <div className="flex flex-wrap items-center gap-10 justify-between">
+      <div className="flex flex-wrap items-center gap-10 justify-evenly">
         {updates.map((update: updateType, i: number) => (
-            <Card key={i} className="w-[25%] bg-zinc-100">
+            <Card key={i} className="w-[20%] text-center bg-zinc-100 shadow-lg">
             <CardHeader>
-              <CardTitle>{update.title}</CardTitle>
+              <CardTitle className="leading-normal">{update.title}</CardTitle>
             </CardHeader>
-            <CardFooter>
-              <Link href={update.url} className="text-(--brandPrimary)">
+            <CardFooter className="text-center">
+              <Link href={update.url} className="text-(--brandPrimary) m-auto">
                 Read More &rarr;
               </Link>
             </CardFooter>
