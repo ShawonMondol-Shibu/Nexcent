@@ -28,7 +28,7 @@ export default function Clients() {
             height={38}
             alt="company icons "
           />
-        ))}
+        ))} 
       </div>
     </main>
   );
