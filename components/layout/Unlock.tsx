@@ -16,7 +16,7 @@ export default function Unlock() {
         <div className="space-y-5 w-full">
           <h2 className="text-3xl font-bold">
             The unseen of spending three <br /> years at Pixelgrade
-          </h2>
+          </h2> 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
