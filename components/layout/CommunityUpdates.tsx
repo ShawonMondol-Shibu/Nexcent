@@ -30,8 +30,8 @@ export default function CommunityUpdates() {
         <h2 className="text-3xl font-bold">Caring is the new marketing</h2>
         <p>
           The Nexcent blog is the best place to read about the latest membership
-          insights, trends and more. See who's joining the community, read about
-          how our community are increasing their membership income and lot's
+          insights, trends and more. See who&apos;s joining the community, read about
+          how our community are increasing their membership income and lot&apos;s
           more.​
         </p>
       </div>

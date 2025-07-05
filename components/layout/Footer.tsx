@@ -39,11 +39,11 @@ export default function Footer() {
             Get a Demo &rarr;
           </Button>
         </div>
-        </div>
+      </div>
 
-        {/* Footer main started from here */}
+      {/* Footer main started from here */}
 
-<div className=" m-auto bg-neutral-800 text-white">
+      <div className=" m-auto bg-neutral-800 text-white">
         <div className="container m-auto flex items-start justify-between py-20 ">
           <div className=" space-y-10">
             <Image
@@ -68,7 +68,7 @@ export default function Footer() {
             <h4 className="text-xl font-semibold">Company</h4>
             <ul className="space-y-2">
               {footerLink.map((item: footerLinkType, i: number) => (
-                  <li key={i}>
+                <li key={i}>
                   <Link href={item.url}>{item.title}</Link>
                 </li>
               ))}
@@ -76,10 +76,10 @@ export default function Footer() {
           </div>
 
           <div className="space-y-5">
-              <h4 className="text-xl font-semibold">Support</h4>
-                <ul className="space-y-2">
+            <h4 className="text-xl font-semibold">Support</h4>
+            <ul className="space-y-2">
               {supports.map((item: footerLinkType, i: number) => (
-                  <li key={i}>
+                <li key={i}>
                   <Link href={item.url}>{item.title}</Link>
                 </li>
               ))}
@@ -87,12 +87,11 @@ export default function Footer() {
           </div>
 
           <div className="space-y-5">
-              <h4 className="text-xl font-semibold">Stay up to date</h4>
-              <div className="flex items-center border p-2 rounded-md bg-zinc-700">
-                <input type="email" placeholder="Your email address"/>
-                <Send/>
-              </div>
-
+            <h4 className="text-xl font-semibold">Stay up to date</h4>
+            <div className="flex items-center border p-2 rounded-md bg-zinc-700">
+              <input type="email" placeholder="Your email address" />
+              <Send />
+            </div>
           </div>
         </div>
       </div>
