@@ -5,15 +5,18 @@ import { Button } from "../ui/button";
 export default function Unlock() {
   return (
     <div className="container m-auto mt-20">
-      <main className="md:grid grid-cols-2 flex gap-5 flex-wrap items-center justify-evenly">
+      <main className="flex gap-10 flex-wrap items-center justify-evenly">
+        <div className="md:flex-1/3 flex-1/2">
+
         <Image
           src={"/images/rafiki.png"}
           width={442}
           height={330}
           alt="unlock section image"
-          className="m-auto"
-        />
-        <div className="space-y-5 w-full">
+          className="md:float-right m-auto"
+          />
+          </div>
+        <div className="space-y-5 flex-1/2">
           <h2 className="text-3xl font-bold">
             The unseen of spending three <br /> years at Pixelgrade
           </h2> 

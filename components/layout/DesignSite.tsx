@@ -5,15 +5,18 @@ import { Button } from "../ui/button";
 export default function DesignSite() {
   return (
     <div className="container m-auto mt-20">
-      <main className="md:grid grid-cols-2 flex gap-5 flex-wrap items-center md:justify-center justify-evenly">
+      <main className="flex gap-10 flex-wrap items-center md:justify-center justify-evenly">
+        <div className="md:flex-1/3 flex-1/2">
+
         <Image
           src={"/images/pana.png"}
           width={442}
           height={330}
           alt="How to design section image"
-          className="m-auto"
-        />
-        <div className="space-y-5 w-full m-auto">
+          className="md:float-right m-auto"
+          />
+          </div>
+        <div className="space-y-5 flex-1/2 m-auto md:text-justify text-center ">
           <h2 className="text-3xl font-bold">
             How to design your site footer like we did 
           </h2>
