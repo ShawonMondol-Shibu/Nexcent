@@ -23,8 +23,10 @@ export default function CommunityUpdates() {
     },
   ];
   return (
-    <div>
-      <div className="mb-20">
+    <div className="mt-10 py-10">
+        <main className="container m-auto">
+
+      <div className="m-auto mb-40 w-[40%] text-center">
         <h2 className="text-3xl font-bold">Caring is the new marketing</h2>
         <p>
           The Nexcent blog is the best place to read about the latest membership
@@ -35,18 +37,19 @@ export default function CommunityUpdates() {
       </div>
       <div className="flex flex-wrap items-center gap-10 justify-between">
         {updates.map((update: updateType, i: number) => (
-          <Card key={i}>
+            <Card key={i} className="w-[25%] bg-zinc-100">
             <CardHeader>
               <CardTitle>{update.title}</CardTitle>
             </CardHeader>
             <CardFooter>
-              <Link href={update.url} color="var(--colorShade1)">
+              <Link href={update.url} className="text-(--brandPrimary)">
                 Read More &rarr;
               </Link>
             </CardFooter>
           </Card>
         ))}
       </div>
+        </main>
     </div>
   );
 }
