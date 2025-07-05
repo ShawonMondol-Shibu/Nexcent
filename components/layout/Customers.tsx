@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Customers() {
   return (
-    <div className="container m-auto mt-20">
-      <main className="flex flex-wrap gap-10 items-center justify-center m-auto">
+    <div className=" mt-20 py-10 bg-zinc-100">
+      <main className="container flex flex-wrap gap-10 items-center justify-center m-auto">
         <div className="md:flex-1/5 flex-1/2 w-fit">
           <Image
             src={"/images/image 9.png"}
