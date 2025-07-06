@@ -43,8 +43,8 @@ export default function Footer() {
 
       {/* Footer main started from here */}
 
-      <div className=" m-auto bg-neutral-800 text-white">
-        <div className="container m-auto flex flex-wrap gap-10 md:items-start items-center justify-between py-20 ">
+      <div className=" m-auto bg-neutral-800 text-white md:px-0 px-5">
+        <div className="container m-auto flex flex-wrap gap-10 md:items-start items-stretch justify-between py-20 ">
           <div className=" space-y-10">
             <Image
               src={"/images/logo.png"}
