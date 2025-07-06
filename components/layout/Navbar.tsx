@@ -26,7 +26,7 @@ export default function Navbar() {
         alt="nexcents logo image in for this site"
       />
 
-      <ul className="flex gap-10 items-center">
+      <ul className="md:flex hidden gap-10 items-center">
         {navLink.map((nav: navType) => (
           <li key={nav.name}>
             <Link

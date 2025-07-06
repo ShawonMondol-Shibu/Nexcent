@@ -16,7 +16,7 @@ export default function Unlock() {
           className="md:float-right m-auto"
           />
           </div>
-        <div className="space-y-5 flex-1/2">
+        <div className="space-y-5 flex-1/2 md:text-justify text-center">
           <h2 className="text-3xl font-bold">
             The unseen of spending three <br /> years at Pixelgrade
           </h2> 

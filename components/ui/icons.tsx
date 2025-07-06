@@ -12,7 +12,7 @@ export default function Icons() {
   ];
   return (
     <>
-      <div className="flex items-center justify-evenly gap-10">
+      <div className="flex flex-wrap items-center justify-evenly gap-10">
         {companys.map((icon: string, i: number) => (
           <Image
             key={i}

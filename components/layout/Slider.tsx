@@ -22,11 +22,11 @@ export default function Slider() {
           {Array.from({ length: 3 }).map((item, i) => (
             <CarouselItem
               key={i}
-              className="flex items-center justify-between gap-10"
+              className=" flex items-center justify-between"
             >
-              <div className="space-y-8">
+              <div className="md:space-y-8 space-y-5">
                 <div>
-                  <h2 className="text-6xl font-bold leading-tight">
+                  <h2 className="md:text-6xl text-2xl font-bold leading-tight">
                     Lessons and insights <br />
                     <span className="text-(--colorShade1)">
                       from 8 years
@@ -45,17 +45,20 @@ export default function Slider() {
                   Register
                 </Button>
               </div>
+              <div>
+
               <Image
                 src={"/images/image.png"}
                 width={391}
                 height={407}
                 alt="header carousel banner image"
-              />
+                />
+                </div>
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselNext className="text-(--brandPrimary)" />
-        <CarouselPrevious className="text-(--brandPrimary)" />
+        <CarouselPrevious className="text-(--brandPrimary) md:inline-flex hidden" />
+        <CarouselNext className="text-(--brandPrimary) md:inline-flex hidden" />
       </Carousel>
     </>
   );

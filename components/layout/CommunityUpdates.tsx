@@ -26,7 +26,7 @@ export default function CommunityUpdates() {
     <div className="mt-10 py-10">
         <main className="container m-auto">
 
-      <div className="m-auto mb-40 md:w-xl w-lg text-wrap text-center">
+      <div className="m-auto mb-40 md:w-xl w-full text-wrap text-center">
         <h2 className="text-3xl font-bold">Caring is the new marketing</h2>
         <p>
           The Nexcent blog is the best place to read about the latest membership
