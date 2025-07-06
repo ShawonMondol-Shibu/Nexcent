@@ -26,7 +26,7 @@ export default function CommunityUpdates() {
     <div className="mt-10 py-10">
         <main className="container m-auto">
 
-      <div className="m-auto mb-40 w-[40%] text-center">
+      <div className="m-auto mb-40 md:w-xl w-lg text-wrap text-center">
         <h2 className="text-3xl font-bold">Caring is the new marketing</h2>
         <p>
           The Nexcent blog is the best place to read about the latest membership
@@ -35,11 +35,11 @@ export default function CommunityUpdates() {
           more.​
         </p>
       </div>
-      <div className="flex flex-wrap items-center gap-10 justify-evenly">
+      <div className="flex flex-wrap items-center gap-10 justify-center">
         {updates.map((update: updateType, i: number) => (
-            <Card key={i} className="w-[20%] text-center bg-zinc-100 shadow-lg">
+            <Card key={i} className="w-80 text-center bg-zinc-100 shadow-lg">
             <CardHeader>
-              <CardTitle className="leading-normal">{update.title}</CardTitle>
+              <CardTitle className="leading-normal text-xl">{update.title}</CardTitle>
             </CardHeader>
             <CardFooter className="text-center">
               <Link href={update.url} className="text-(--brandPrimary) m-auto">
