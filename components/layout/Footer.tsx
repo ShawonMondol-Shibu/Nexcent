@@ -93,7 +93,7 @@ export default function Footer() {
               <Send />
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </footer>
   );
